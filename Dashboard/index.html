@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>NovaBot Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>🚀 NovaBot</h2>
+    <a class="active">Dashboard</a>
+    <a>Servers</a>
+    <a>Levels</a>
+    <a>Moderation</a>
+    <a>Settings</a>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <header class="topbar">
+      <h1>لوحة التحكم</h1>
+      <span class="status" id="status">Loading...</span>
+    </header>
+
+    <section class="cards">
+      <div class="card">
+        <h3>🤖 Bot</h3>
+        <p id="bot">---</p>
+      </div>
+      <div class="card">
+        <h3>🌐 Servers</h3>
+        <p id="servers">---</p>
+      </div>
+      <div class="card">
+        <h3>👥 Users</h3>
+        <p id="users">---</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>📡 API Status</h2>
+      <p id="api">Waiting for data...</p>
+    </section>
+  </main>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
